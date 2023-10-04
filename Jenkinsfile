@@ -19,7 +19,7 @@ pipeline {
                 //error 'this is failed'
             }
         }
-
+    }
     post { 
         always { 
             echo 'I will always run whether job is success or not'
@@ -31,6 +31,6 @@ pipeline {
             echo 'I will run when failure'
         }
     }
-    }
+    
 
 }
