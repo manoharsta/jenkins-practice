@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo " Namaste"
+                echo "Bengaluru"
               
             }
         }
