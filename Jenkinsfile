@@ -1,8 +1,8 @@
 pipeline {
     agent { node { label 'AGENT-1' } }
-    triggers {
-        cron('* * * * *')
-    }
+    // triggers {
+    //     cron('* * * * *')
+    // }
 
     stages {
         stage('Build') {
