@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 echo " Namaste"
                 echo "Bengaluru"
-                echo "I am in Marathahalli"
+                echo "I am in Marathahalli kalamandir"
               
             }
         }
